@@ -73,7 +73,7 @@ Bandwidth is more difficult to measure. iPerf3 is a tool to measure maximum band
 
 7.  [Data] In the previous command data was moving from the IPerf server to the client. Use the -r option to reverse the flow of traffic and measure the bandwidth from the client to the server.
 
-`iperf -i 1 -r -c iperf.he.net`
+`iperf -i 1 -R -c iperf.he.net`
 
 #### Task 2c - Hybrid testing
 
