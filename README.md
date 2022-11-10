@@ -32,7 +32,7 @@
 
 3.  Create the following GNS3 project and configure the network per the IP grid.
 
-![](Lab10-1.png)
+![](Lab10.png)
 
 ### Task 2- Performance Testing Tools
 
