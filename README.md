@@ -69,11 +69,11 @@ Bandwidth is more difficult to measure. iPerf3 is a tool to measure maximum band
 
 6.  [Data] Use the following command to run the iperf3 program as a client and measure the bandwidth to Hurricane Electric's public iPerf server. This is a busy server, if the connection is refused, use the up arrow to recover the previous command and enter it again.
 
-`iperf3 -i 1 -c iperf.he.net`
+`iperf -i 1 -c iperf.he.net`
 
 7.  [Data] In the previous command data was moving from the IPerf server to the client. Use the -r option to reverse the flow of traffic and measure the bandwidth from the client to the server.
 
-`iperf3 -i 1 -r -c iperf.he.net`
+`iperf -i 1 -r -c iperf.he.net`
 
 #### Task 2c - Hybrid testing
 
