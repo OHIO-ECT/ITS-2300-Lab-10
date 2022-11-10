@@ -56,8 +56,8 @@ Various operating systems implement the ping function differently. The critical 
 |Home Computer      |VyOS WAN address
 |Home Computer      |www.ohio.edu
 |Home Computer      |132.235.9.75
-|Ubuntu GUI in GNS3 |www.ohio.edu
-|Ubuntu GUI in GNS3 |132.235.9.75
+|Windows in GNS3 |www.ohio.edu
+|Windows in GNS3 |132.235.9.75
 
 #### Task 2b - iPerf
 
@@ -65,7 +65,7 @@ Bandwidth is more difficult to measure. iPerf3 is a tool to measure maximum band
 
 5.  Install iperf3 on the Ubuntu-CLI client machine with the following command. Enter the itsclass user's password when prompted.
 
-`sudo apt install -y iperf3`
+`sudo apt install -y iperf`
 
 6.  [Data] Use the following command to run the iperf3 program as a client and measure the bandwidth to Hurricane Electric's public iPerf server. This is a busy server, if the connection is refused, use the up arrow to recover the previous command and enter it again.
 
